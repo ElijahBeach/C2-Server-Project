@@ -131,16 +131,25 @@ This is the only non standard library you need to use the software.
 
 This is a Github-based C2 (Command and Control) server written in Python 3. 
   
-  The “bootstrapper” is the constructor for the C2 server repository. It contains the code for the modules that the clients can run, information on the host of the server, and the structure of the entire repository.
+  The bootstrapper is the constructor for the C2 server repository. It contains the code for the modules that the clients can run, information on the host of the server, and the structure of the entire repository.  
   
-  Once the “client” program is executed on an infected machine, it will periodically check a specified Github repository to receive commands. It determines the correct repository via the gist. When the infected machine makes its first communication with the C2 server,  a new file with the machine’s information in the “config” directory. This file tells the infected machine which module from the “modules” directory to run and can be edited to allow for custom instructions for each machine in the botnet. 
+![usage_01](https://user-images.githubusercontent.com/87623093/149627993-39c8717d-0160-465e-8036-4fac0805575a.png)
+
+  Once the client program is executed on an infected machine, it will periodically check a specified Github repository to receive commands. It determines the correct repository via the gist. When the infected machine makes its first communication with the C2 server,  a new file with the machine’s information in the config directory. This file tells the infected machine which module from the modules directory to run and can be edited to allow for custom instructions for each machine in the botnet.    
   
-  The “modules” directory is, predictably, where the code for the modules is kept. Each module is essentially a task that the server can tell the clients to perform. The most notable modules we’ve included are  “dirlister.py”, “shell_module.py”, and “sleep.py”. Dirlister.py makes the client list all of the files in the present working directory. Shell_module.py allows the user of the host machine to open a reverse shell on a client of their choosing. sleep.py puts the client into a standby state so  it can constantly listen for new instructions from the server.
+![usage_02](https://user-images.githubusercontent.com/87623093/149628390-db8dca21-ff74-4529-8979-1466e8f2c509.png)
+
   
-  The “config” directory contains the personalized instructions for each client. As stated before, each client has its own config file which can be edited to customize the instructions for each machine.
+  The modules directory is, predictably, where the code for the modules is kept. Each module is essentially a task that the server can tell the clients to perform. The most notable modules we’ve included are  dir_lister, enviro, shell_module, and sleep. Dir_lister makes the client list all of the files in the present working directory. Enviro copies the hosts enviromental variables to the data section in the repo. Shell_module opens a reverse shell on a client of their choosing. Sleep puts the client into a standby state so that it will wait for a set time then check for new instructions from the server.   
+  
+![usage_03](https://user-images.githubusercontent.com/87623093/149628413-67a5a365-9d2e-45a3-80ba-3146278295e1.png)
+
+  
+  The config directory contains the personalized instructions for each client. As stated before, each client has its own config file which can be edited to customize the instructions for each machine.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 
