@@ -19,7 +19,6 @@
 -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -29,7 +28,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/JochiRaider/VPI_FS_project">
+  <a href="https://github.com/ElijahBeach/C2-Server-Project">
   <img src="images/logo.png" alt="Logo" style="display: block; height: auto; border: 0; width: 680px; max-width: 100%;">
   </a>     
                                                                                          
@@ -38,14 +37,14 @@
   <p align="center">
     A command and control server that uses a prepared github repository as it's backend 'server' and public gists for side band communication  
     <br />
-    <a href="https://github.com/JochiRaider/VPI_FS_project"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ElijahBeach/C2-Server-Project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/JochiRaider/VPI_FS_project">View Demo</a>
+    <a href="https://github.com/ElijahBeach/C2-Server-Project/issues">View Demo</a>
     ·
-    <a href="https://github.com/JochiRaider/VPI_FS_project/issues">Report Bug</a>
+    <a href="https://github.com/ElijahBeach/C2-Server-Project/issues">Report Bug</a>
     ·
-    <a href="https://github.com/JochiRaider/VPI_FS_project/issues">Request Feature</a>
+    <a href="https://github.com/ElijahBeach/C2-Server-Project/issues">Request Feature</a>
   </p>
 </div>
 
@@ -183,7 +182,7 @@ Elijah - elijahbeach99@gmail.com
 
 James - jedaniel1999@gmail.com   
 
-Project Link: [https://github.com/JochiRaider/VPI_FS_project](https://github.com/JochiRaider/VPI_FS_project)
+Project Link: [https://github.com/ElijahBeach/C2-Server-Project](https://github.com/ElijahBeach/C2-Server-Project)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -202,12 +201,7 @@ Project Link: [https://github.com/JochiRaider/VPI_FS_project](https://github.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/JochiRaider/VPI_FS_project.svg?style=for-the-badge
-[contributors-url]: https://github.com/JochiRaider/VPI_FS_project/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/JochiRaider/VPI_FS_project.svg?style=for-the-badge
-[forks-url]: https://github.com/JochiRaider/VPI_FS_project/network/members
-[stars-shield]: https://img.shields.io/github/stars/JochiRaider/VPI_FS_project.svg?style=for-the-badge
-[stars-url]: https://github.com/JochiRaider/VPI_FS_project/stargazers
+
 [issues-shield]: https://img.shields.io/github/issues/JochiRaider/VPI_FS_project.svg?style=for-the-badge
 [issues-url]: https://github.com/JochiRaider/VPI_FS_project/issues
 [license-shield]: https://img.shields.io/github/license/JochiRaider/VPI_FS_project.svg?style=for-the-badge
