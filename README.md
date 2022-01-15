@@ -110,7 +110,7 @@ This is the only non standard library you need to use the software.
 1. Clone the repo
    
    ```sh
-   git clone https://github.com/JochiRaider/VPI_FS_project.git
+   git clone https://github.com/ElijahBeach/C2-Server-Project.git
    ```
 2. Set Up a gist with a token base 64 encoded in the description
     <img src="images/token_gist.png" alt="token" style="display: block; height: auto; border: 0; width: 680px; max-width: 100%;" width="680">
@@ -200,10 +200,10 @@ Project Link: [https://github.com/ElijahBeach/C2-Server-Project](https://github.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[issues-shield]: https://img.shields.io/github/issues/JochiRaider/VPI_FS_project.svg?style=for-the-badge
-[issues-url]: https://github.com/JochiRaider/VPI_FS_project/issues
-[license-shield]: https://img.shields.io/github/license/JochiRaider/VPI_FS_project.svg?style=for-the-badge
-[license-url]: https://github.com/JochiRaider/VPI_FS_project/blob/master/LICENSE.txt
+[issues-shield]: https://img.shields.io/github/issues/ElijahBeach/C2-Server-Project.svg?style=for-the-badge
+[issues-url]: https://github.com/ElijahBeach/C2-Server-Project/issues
+[license-shield]: https://img.shields.io/github/license/ElijahBeach/C2-Server-Project.svg?style=for-the-badge
+[license-url]: https://github.com/ElijahBeach/C2-Server-Project/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/elijah-beach/
 [product-screenshot]: images/shell_popp.png
